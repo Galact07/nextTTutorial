@@ -38,8 +38,13 @@ export default function VerifyMail(){
     return(
         <>
         <div>
-           <h1>{token}</h1>
-           <h1 className="text-white">{verified}</h1>
+            {verified ?
+              <h1>{token}</h1>
+            :
+            <h1>Nothing</h1>
+
+            }
+        
             
             
             </div></>
