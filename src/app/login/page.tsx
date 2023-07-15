@@ -47,6 +47,7 @@ export default function Login(){
                </div>
                <button className="rounded-lg bg-slate-400 px-3 py-2 mt-4" onClick={onLogin}>Login</button>
                <Link href='/signup' className="font-underline mt-3 underline">Visit Sign Up Page</Link>
+               <Link href='/login/confirmEmail' className="font-underline mt-3 underline">Forgot Password</Link>
            </div>
        )
 }
